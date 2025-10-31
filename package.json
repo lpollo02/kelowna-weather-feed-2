@@ -1,6 +1,6 @@
 {
   "name": "weather-rss-kelowna",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom Environment Canada RSS feed with weather icons (Kelowna, BC) for Vercel deployment",
   "type": "module",
   "dependencies": {
