@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "functions": {
+    "api/rss/kelowna.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    { "src": "/rss/kelowna", "dest": "/api/rss/kelowna.js" }
+  ]
+}
