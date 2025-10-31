@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "functions": {
-    "api/rss/kelowna.js": {
-      "runtime": "nodejs20.x"
-    }
-  },
+  "builds": [
+    { "src": "api/rss/kelowna.js", "use": "@vercel/node" }
+  ],
   "routes": [
     { "src": "/rss/kelowna", "dest": "/api/rss/kelowna.js" }
   ]
